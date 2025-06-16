@@ -1,5 +1,4 @@
-import { createAgent, gemini } from "@inngest/agent-kit";import { createAgent, gemini } from "@inngest/agent-kit";
-
+import { createAgent, gemini } from "@inngest/agent-kit";
 const analyzeTicket = async (ticket) => {
   const supportAgent = createAgent({
     model: gemini({
