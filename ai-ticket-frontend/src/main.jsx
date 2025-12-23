@@ -30,14 +30,7 @@ createRoot(document.getElementById("root")).render(
             </CheckAuth>
           }
         />
-        <Route
-          path="/login"
-          element={
-            <CheckAuth protected={false}>
-              <Login />
-            </CheckAuth>
-          }
-        />
+        
         <Route
           path="/signup"
           element={
